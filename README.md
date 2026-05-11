@@ -47,3 +47,56 @@ project/
 │   └── main.js
 │
 └── README.md
+
+# ▶️ How to Run the Project
+
+## 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/your-username/project-name.git
+cd project-name
+```
+
+## 2️⃣ Create Virtual Environment (Optional)
+
+### Windows
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+
+### Linux / Mac
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+## 3️⃣ Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+## 4️⃣ Run the Project
+
+```bash
+python app.py
+```
+
+## 5️⃣ Open in Browser
+
+```text
+http://127.0.0.1:5000
+```
+
+# ✅ Requirements
+
+- Python 3.x
+- pip
+- Web Browser
+
+# 📦 Required Libraries
+
+```bash
+pip install flask psutil
+```
